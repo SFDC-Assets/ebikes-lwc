@@ -1,5 +1,5 @@
 sfdx shane:org:create -f config/project-scratch-def.json -d 5 -s --wait 60 --userprefix ebikes -o lwc.demo
-sf project deploy start
+sfdx force:source:push
 sf org assign permset -n ebikes
 sf org assign permset -n Walkthroughs
 sf data tree import -p ./data/sample-data-plan.json
