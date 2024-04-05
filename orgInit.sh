@@ -5,4 +5,4 @@ sf org assign permset -n Walkthroughs
 sf data tree import -p ./data/sample-data-plan.json
 sf community publish -n E-Bikes
 sf project deploy start --metadata-dir=guest-profile-metadata -w 10
-sf org open
+sfdx force:org:open
