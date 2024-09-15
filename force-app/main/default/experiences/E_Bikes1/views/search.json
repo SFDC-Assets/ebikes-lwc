@@ -26,10 +26,6 @@
                             {
                                 "isPublic": false,
                                 "name": "Case"
-                            },
-                            {
-                                "isPublic": true,
-                                "name": "CollaborationGroup"
                             }
                         ],
                         "searchResultFiltering": true,

@@ -1,8 +1,13 @@
 {
     "orgName": "Ebikes",
-    "edition": "Developer",
+    "edition": "Partner Developer",
     "hasSampleData": false,
-    "features": ["Communities", "Walkthroughs", "EnableSetPasswordInApi"],
+    "features": [
+        "Communities",
+        "Walkthroughs",
+        "EnableSetPasswordInApi",
+        "EINSTEIN1AIPLATFORM"
+    ],
     "settings": {
         "communitiesSettings": {
             "enableNetworksEnabled": true
