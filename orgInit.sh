@@ -7,6 +7,8 @@ sleep 120
 sfdx force:source:push
 sf org assign permset -n ebikes
 sf org assign permset -n Walkthroughs
+sfdx force:user:permset:assign -n EinsteinGPTPromptTemplateManager
+
 # sf data tree import -p ./data/sample-data-plan.json
 sf automig load -d data
 sf community publish -n E-Bikes
