@@ -1,4 +1,4 @@
-sfdx shane:org:create -f config/project-scratch-def.json -d 5 -s --wait 60 --userprefix dxp -o work.shop
+sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix dxp -o work.shop
 
 # npm install
 # node run.js
