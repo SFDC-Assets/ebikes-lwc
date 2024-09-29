@@ -10,7 +10,6 @@ package.xml
 **/appSwitcher/**
 **/fieldRestrictionRules/**
 **/objectTranslations/**
-**/profiles/**
 **/profilePasswordPolicies/**
 **/profileSessionSettings/**
 **/settings/**
