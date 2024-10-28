@@ -14,6 +14,6 @@ sf demoutil org create scratch -f config/project-scratch-def.json -d 30 -s -p dx
 # sf community publish -n E-Bikes
 # sf project deploy start --metadata-dir=guest-profile-metadata -w 10
 
-sf project deploy start -p trial-app
+sf project deploy start -d trial-app
 sf demoutil user password set -p salesforce1 -g User -l User
 sf org open
