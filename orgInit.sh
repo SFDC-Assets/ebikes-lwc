@@ -1,4 +1,4 @@
-sf demoutil org create scratch -f config/project-scratch-def.json -d 30 -s -p dxp -e wrok.shop
+sf demoutil org create scratch -f config/project-scratch-def.json -d 30 -s -p dxp -e work.shop
 
 # npm install
 # node run.js
